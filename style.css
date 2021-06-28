@@ -1,0 +1,220 @@
+/*
+Theme name: neutral
+Author: Kyle Barnes
+Author URI: https://kylebarnes.me/
+Description: a blog
+Version: 1.0
+Tags: offwhite, blue, yellow, responsive, custom-header, custom-menu, featured-images
+Text Domain: neutral
+*/
+
+:root {
+	--tan: #f2f0eb;
+	--blue: #4056a1;
+	--blue-light: #c5cbe3;
+	--yellow: #d79922;
+	--roboto: 'Roboto Mono', monospace; 
+}
+
+/* MOBILE STYLES */
+
+body {
+    background-color: var(--tan);
+	color: var(--blue);
+	font-family: var(--roboto);
+    font-size: 1.25rem;
+    font-weight: 400;
+	line-height: 1.75rem;
+}
+h1 {
+	font-size: 4rem;
+	font-weight: 200;
+	line-height: 4rem;
+	color: var(--yellow);
+	padding: 1rem 0;
+}
+h2 {
+	font-size: 2rem;
+	font-weight: 500;
+}
+h3 {
+	font-size: 1.65rem;
+	font-weight: 500;
+}
+p a {
+	color: var(--blue);
+	text-decoration: underline;
+	text-decoration-color: var(--blue);
+}
+p a:hover {
+	color: var(--blue-light);
+	text-decoration: none
+}
+p#subtitle {
+	display: none;
+}
+a {
+	color: var(--blue);
+}
+a:hover {
+	color: var(--blue-light);
+	text-decoration: none;
+}
+hr {
+	border-top: 2px solid var(--blue);
+    width: 50px;
+	margin-left: 0;
+	padding: 1em 0;
+}
+
+/* NAVBAR */
+
+header {
+	padding-top: 1rem;
+}
+.navbar .container-fluid {
+	align-items: baseline;
+	position: relative;
+	z-index: 1;
+}
+.navbar-brand {
+	font-size: 2rem;
+	font-weight: 700;
+}
+.navbar .subtitle {
+	text-align: center;
+}
+.navbar a:hover {
+	color: var(--blue-light);
+}
+.navbar-nav .dropdown-toggle {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.navbar-nav .dropdown-menu {
+	position: absolute;
+	z-index: 2;
+	background-color: var(--tan);
+	border: 1px solid var(--blue);
+}
+.navbar-nav .dropdown-item {
+	color: var(--blue);
+	line-height: 2rem;
+}
+.navbar-nav .dropdown-item:hover {
+	background-color: transparent;
+}
+.animate {
+	animation-duration: 0.3s;
+	-webkit-animation-duration: 0.3s;
+	animation-fill-mode: both;
+	-webkit-animation-fill-mode: both;
+}
+.slideIn {
+	-webkit-animation-name: slideIn;
+	animation-name: slideIn;
+}
+@keyframes slideIn {
+	0% {
+		transform: translateY(1rem);
+		opacity: 0;
+	}
+	100% {
+		transform:translateY(0rem);
+		opacity: 1;
+	}
+	0% {
+		transform: translateY(1rem);
+		opacity: 0;
+	}
+}
+@-webkit-keyframes slideIn {
+	0% {
+		-webkit-transform: transform;
+		-webkit-opacity: 0;
+	}
+	100% {
+		-webkit-transform: translateY(0);
+		-webkit-opacity: 1;
+	}
+	0% {
+		-webkit-transform: translateY(1rem);
+		-webkit-opacity: 0;
+	}
+}
+
+
+/* BLOG */
+
+.card {
+    background-color: transparent;
+	border: none;
+	margin-bottom: 1.5rem;
+}
+.thumbnail {
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+.thumbnail img {
+	width: 100%;
+	height: auto;
+}
+#blog-single .row:first-child {
+	margin-bottom: 2rem;
+}
+.blog-main p {
+	margin: 1.5rem 0;
+}
+.blog-main h2 {
+	margin: 2rem 0 1rem 0;
+}
+.blog-main a {
+	color: var(--blue);
+	text-decoration: underline;
+	text-decoration-color: var(--blue);
+}
+.blog-main a:hover {
+	color: var(--blue-light);
+	text-decoration: none
+}
+.blog-main ol {
+	list-style-type: decimal;
+}
+.blog-main li::marker {
+	background-color: var(--yellow);
+	border-radius: 50%;
+}
+.tags {
+	color: var(--yellow);
+	margin: 2rem 0 1rem 0;
+}
+.p-4 h3 {
+	margin-bottom: 1.25rem;
+}
+.p-4 ul li {
+	margin-bottom: 1rem;
+}
+.p-4 ul li:last-child {
+	margin-bottom: 0;
+}
+
+
+/* FOOTER */
+
+footer {
+	padding-bottom: 1rem;
+}
+footer .fa {
+	font: normal normal normal 2rem/1 FontAwesome;
+}
+
+  
+@media (min-width: 768px) {
+	p#subtitle {
+		display: block;
+	}
+}
+
+@media (min-width: 992px) {
+
+}
