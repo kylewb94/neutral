@@ -16,11 +16,11 @@ Find fonts of all styles at [fonts.google.com](https://fonts.google.com/).
 #### Blog Images
 Blog photos by:
 
-[Dale Nibbe](https://unsplash.com/@dalenpdx)
-[Orlova Maria](https://unsplash.com/@orlovamaria)
-[Elena Kuchko](https://unsplash.com/@elena_kuchko)
-[Cristofer Jeschke](https://unsplash.com/@cristofer)
-[Daniel Herron](https://unsplash.com/@herrond)
-[Josh Herrington](https://unsplash.com/@josh_herrington)
+[Dale Nibbe](https://unsplash.com/@dalenpdx)  
+[Orlova Maria](https://unsplash.com/@orlovamaria)  
+[Elena Kuchko](https://unsplash.com/@elena_kuchko)  
+[Cristofer Jeschke](https://unsplash.com/@cristofer)  
+[Daniel Herron](https://unsplash.com/@herrond)  
+[Josh Herrington](https://unsplash.com/@josh_herrington) 
 
 from [Unsplash](https://unsplash.com/)
